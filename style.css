@@ -1,0 +1,49 @@
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    height: 75vh;
+    width: 25vw;
+    background-color: rgb(0, 0, 50);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.display {
+    background-color: gray;
+    height: 5vh;
+    text-align: end;
+    font-size: 5vh;
+    font-weight: 500;
+    padding: 2.5vh;
+}
+
+.number-table {
+    height: 63vh;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 16px;
+}
+
+button {
+    background-color: white;
+    width: 6vw;
+    height: 12vh;
+    font-size: 40px;
+}
+
+.equal {
+    background-color: orangered;
+}
